@@ -5,8 +5,10 @@ body {
 
 /* header */
 
-.header {
+header {
     padding: 12px 24px;
+    background-color: black;
+    color: aliceblue;
 }
 
 .header-contents {
@@ -19,4 +21,12 @@ body {
     height: 56px;
     width: auto;
     display: block;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
