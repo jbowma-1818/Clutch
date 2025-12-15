@@ -1,6 +1,7 @@
 /* variables */
 :root {
     --clutch-green: #92D50D;
+    --white-text: #FFFFFF;
 }
 
 body {
@@ -8,12 +9,16 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: var(--white-text);
+}
+
 /* header */
 
 header {
     padding: 12px 24px;
     background-color: black;
-    color: aliceblue;
 }
 
 .header-contents {
