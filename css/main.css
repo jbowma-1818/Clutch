@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* header */
+
+.header {
+    padding: 12px 24px;
+}
+
+.header-contents {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo img {
+    height: 56px;
+    width: auto;
+    display: block;
+}
