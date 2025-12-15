@@ -1,3 +1,8 @@
+/* variables */
+:root {
+    --clutch-green: #92D50D;
+}
+
 body {
     margin: 0;
     padding: 0;
