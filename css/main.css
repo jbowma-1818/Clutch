@@ -69,3 +69,8 @@ header {
     font-size: x-large;
     color: var(--white-text);
 }
+
+/* misc. */
+.icon {
+    color: var(--clutch-green);
+}
