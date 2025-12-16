@@ -4,6 +4,7 @@
     --white-text: #FFFFFF;
 }
 
+/* generic element tags */ 
 body {
     margin: 0;
     padding: 0;
@@ -56,4 +57,15 @@ header {
 
 .green-glow:hover {
     color: var(--clutch-green);
+}
+
+.additional-options-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.divider {
+    font-size: x-large;
+    color: var(--white-text);
 }
