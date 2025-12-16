@@ -21,7 +21,7 @@ header {
     background-color: black;
 }
 
-.header-contents {
+.header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
