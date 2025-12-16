@@ -17,7 +17,6 @@ a {
 }
 
 /* header */
-
 header {
     padding: 12px 24px;
     background-color: black;
@@ -68,6 +67,18 @@ header {
 .divider {
     font-size: x-large;
     color: var(--white-text);
+}
+
+@media (max-width: 880px) {
+    .hide-on-shrink {
+        display: none;
+    }
+}
+
+@media (max-width: 570px) {
+    .hide-on-further-shrink {
+        display: none;
+    }
 }
 
 /* misc. */
