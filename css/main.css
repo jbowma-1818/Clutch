@@ -7,6 +7,7 @@
 body {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 a {
@@ -19,12 +20,19 @@ a {
 header {
     padding: 12px 24px;
     background-color: black;
+    border-top: 1px solid var(--clutch-green);
 }
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-leftside-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 24px;
 }
 
 .header-logo img {
