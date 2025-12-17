@@ -75,7 +75,7 @@ header {
     }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 620px) {
     .hide-on-further-shrink {
         display: none;
     }
